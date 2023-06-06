@@ -24,6 +24,11 @@ A HEX code Regular Expression allows users to validate HEX (or Hexadecimal) colo
 ## Regex Components
 
 ### Anchors
+Regex use use the anchors `^` and `$` for the HEX Regex, it contains both.
+
+`^` is used to indicate the beginning of a regex pattern, with the HEX Regex, the beginning of that pattern would be a `#`. When using this symbol (`^`), you are indicating that you want that particular pattern to be an exact match.
+
+The second anchor used in this regex is the `$`. This particular symbol is used to dictate the end of your desired string. When adding a `$`, you are saying that the characters leading up to it are included at the end of your string.
 
 ### Quantifiers
 
